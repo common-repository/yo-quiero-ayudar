@@ -1,0 +1,54 @@
+.yoquieroayudar {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-text {
+  width: 100%;
+  margin-left: 100%;
+}
+
+.slider-link {
+  float: left;
+  margin-left: 0%;
+}
+
+.money {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+    width: 100%;
+  }
+  20% {
+    margin-left: 0%;
+    width: 100%;
+  }
+  40% {
+    margin-left: -100%;
+    width: 100%;
+  }
+  60% {
+    margin-left: 0%;
+    width: 100%;
+  }
+  80% {
+    margin-left: -100%;
+    width: 100%;
+  }
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slider {
+  animation: 30s slidein;
+}
+
+.slider img {
+  height: 130px;
+}
